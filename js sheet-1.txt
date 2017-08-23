@@ -1,0 +1,93 @@
+//code is the syntax and special instructions given to computer
+//syntax is set of rules and grammer put together for javascript
+//statement is a coherent set of tasks
+a = b + 2; //single statement
+//literal value is 2
+//+ is a operator and b is a identifier, = is an assignment operator
+//right hand side is computed on right side and keep the value on left
+//statements've phrases, ((a) = ((b) + (2))); each element is an expression 
+//in braces, coupled or keeping all the expressions makes a statement
+//js follows the operator precedence
+//to override presedence add parenthsis to the expressions and make a statement.
+//if the function is added in the statement, js go through left to right 
+//ex: a = b * 2 + foo(c * 3) 
+//Executing a program is turning a statement into low level binary format
+//set the varable to 2:high level abstraction
+//a = 2; low level
+//mov 2,a;
+//00110010100011 ; computer level understanding
+//scripting languages are interpreted like line1, line2, line 3....
+//beginning its a interpreted language,later js matured to compiled language
+//compilation means more than one pass to a program, run the scan on whole program and convert into binary if it has valid syntax
+//code can run on console on chrome dev tools and it give the static errors
+//shift + enter goes to new line on console
+//CLI execution can be done on node "node -e filename" runs js
+//input and outputs: 
+//alert pops up the window in browser 
+//console takes the last statement of the program.
+//prompt in program give the box that takes the value and assign
+//operators: operators are the symbols that helps in make a statement
+// == === checks some thing is equal but they do comparision
+//values and types: cohersion is type conversion of string( explicit, implicit)
+//a = 52; a = a/2; (is a string) to convert a = toString(); a = Number(a);
+//value has types but not variables
+//adding number to string makes the concatination
+//ES6 has "const" instead of "var"
+//code comment:comment makes the program more understandable and easy to read by developers
+// // is used to comment single line, /* dbgs*/ is the double line comment
+//comment should be why and how but not what
+//variables and blocks: every variables should be formally declare before using the program
+//let puts inside block and var puts in function
+//block is pairing of statements by curly braces
+//function declaration starts with function foo() {}
+//conditional statement: var a = 10; if( a > 5) { a = a * 2 ;}
+//falsy values nan, false, null, undefined
+//void is an operator and everything after void is undefined
+//conditions are the decisions in program
+//while, if, for, etc loop execute untill the statement is false
+//for(initialization; condition; update)  for(a=5; a<10; a++) {}
+//initialization class, conditional class, update class 
+//break statement is used to stop a loop
+
+
+//function is a loop, block or reusable value within the program
+//function are pre written source that can be called whenever needed
+//Writing into an HTML element, using innerHTML.
+//Writing into the HTML output using document.write().
+//Writing into an alert box, using window.alert().
+//Writing into the browser console, using console.log().
+//variable in JS are denoted by var
+
+var myVariable;
+
+//variables acts as containers to store data and the data can be used in the program for further
+
+var myVariable = x; //myVariable holds the value of x and can be called whenever needed in the program
+
+//variables ends with semicolon
+
+//variables works in a single line statement or, independent line statements
+var x, y ,z;
+
+var x;
+var y;
+var z;
+
+//if the variable is not assigned then it is undefined variable
+
+/*Write a program to calculate the total price of your phone purchase. 
+You will keep purchasing phones (hint: loop!) until you run out of money in your bank account. 
+You'll also buy accessories for each phone as long as your purchase amount is below your 
+mental spending threshold.*/
+
+var manufacturingCost = prompt("manufacturingCost");
+var operatingExpenses = prompt("operatingExpenses");
+var retailMarkUp = prompt("retailMarkUp");
+var profit = prompt("profit");
+function totalPhone() {
+var totalCost;
+totalCost = Number(manufacturingCost) + Number(operatingExpenses) + Number(retailMarkUp) + Number(profit);
+return totalCost;
+}
+console.log(totalPhone());
+

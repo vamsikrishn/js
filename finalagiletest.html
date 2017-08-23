@@ -1,0 +1,275 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>Agile Test</title>
+  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style>
+          body {
+          	background-image: url(placeholder-consulting.jpg);
+          	background-size: 1260px 800px;
+          	background-attachment: fixed;
+          	background-color: transperent;
+          	transition: background-color is linear;
+          	margin-left: 30px;
+          	margin-right: 30px;
+          	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          }
+          h4 {
+          	font-family: verdana;
+          	font-size: 15px;
+          }
+        	#heading1 {
+        		border-left: 6px;
+        		height: 25px;
+        		font-style: verdana;
+        		font-size: 15px;
+        		text-align: center;
+        		background-color: lightblue;
+        		border: none;
+        		border-radius: 5px;
+        	}
+        	.test, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10, #q11, #q12, #q13, #q14, #q15, #q16 {
+        		border: outset; 1px;
+        		padding-bottom: 0px;
+        		font-style: italic;
+        		font-color: white;
+        	}
+  		#footertxt{
+  		      text-align:center;
+  		      font-size: large;
+  		      color: #00567c;
+  		      font-weight: bold
+  		      
+      }
+        	
+        </style>
+  <body>
+  	<img src="https://s3-us-west-1.amazonaws.com/ui-intern-nisum/nisum-logo.png" style="border: none; background-color: #ffffff;"></img>
+  	<div id="heading1">
+  <h3><b>Nisum Agile Training</b></h3><br>
+  <p id="scoreDisp"style="text-align:right"><b></b></p>
+  	</div>
+
+
+  	<div id="heading2">
+  		<h2>What did we learn so far?</h2>
+      
+  	</div>
+
+
+
+
+  <form  name="quiz" method="post" name="buttons"  onsubmit="return handleClick()" >
+  	<div id="qestions">
+
+  	<div id="q1" class="test">
+  		<h4><b>1. What is the difference between Lean and Agile</b></h4>
+  		
+  		<input type="radio" name="qs1" value="correct" id="1op">Agile has shorter iterations<br>
+  		<input type="radio" name="qs1" value="wrong" id="2op">Lean focuses more on the elimination of waste<br>
+  		<input type="radio" name="qs1" value="wrong" id="3op">Lean has less documentation<br>
+  		<input type="radio" name="qs1" value="wrong" id="4op">They are the same<br>
+  		
+  	</div>
+
+
+  	<div id="q2">
+    		<h4><b>2. Which one of the following is an element introduced in extreme programming?</b></h4>
+  		
+  		<input type="radio" name="qs2" value="wrong" id="1opt">pair programming<br>
+  		<input type="radio" name="qs2" value="correct" id="2opt">RAD<br>
+  		<input type="radio" name="qs2" value="wrong" id="3opt">unit testing<br>
+      <input type="radio" name="qs2" value="wrong" id="4opt">testing<br>
+  		
+  	</div>
+
+
+  	<div id="q3">
+           <h4><b>3. What roles are required for implementing Agile Kanban methodology?</b></h4>
+  		
+  		<input type="radio" name="qs3" value="wrong">Project Manager<br>
+  		<input type="radio" name="qs3" value="wrong">Architect<br>
+  		<input type="radio" name="qs3" value="correct">No new roles are introduced<br>
+  		<input type="radio" name="qs3" value="wrong">Kanban Master<br>
+  		
+
+
+  	</div>
+
+
+
+  	<div id="q4">
+  	      <h4><b>4. Why is it important to frequently demonstrate working products?</b></h4>
+            
+            
+            
+            	  <input type="radio" name="qs4" value="wrong">To accelerate our understanding of the user's real needs<br>
+                <input type="radio" name="qs4" value="correct">To get more features out<br>
+                <input type="radio" name="qs4" value="wrong">so we can charge our clients more<br>
+                
+            
+  	</div>
+
+
+
+  	<div id="q5">
+  			<h4><b>5. When can the product backlog be re-prioritized?</b></h4>
+
+  		
+            
+            	  <input type="radio" name="qs5" value="wrong">Never, requirements should not change when sumitted for development<br>
+                <input type="radio" name="qs5" value="wrong">At the end of each quarter, the backlog can be reviewed and re-prioritized<br>
+                <input type="radio" name="qs5" value="correct">Always, the product owner should re-prioritized the backlog constantly as we learn<br>
+                
+            
+            </div>
+
+
+            <div id="q6">
+            		<h4><b>6. What is the role of the Scrum Master?</b></h4>            
+            	  <input type="radio" name="qs6" value="correct">Facilitator and coach for both the product Owner and the Team<br>
+                <input type="radio" name="qs6" value="wrong">Provides timelines and estimates to upper management<br>
+                <input type="radio" name="qs6" value="wrong">Assign work to team members<br>
+           </div>
+
+
+                <div id="q7">
+
+                      <h4><b>7. On a Scrum team who is in charge of writing user stories?</b></h4>             	
+                  	  <input type="radio" name="qs7" value="wrong">Product Owner<br>
+                      <input type="radio" name="qs7" value="wrong">Scrum Master<br>
+                      <input type="radio" name="qs7" value="correct">Scrum Team<br>
+                </div>
+
+                <div id="q8">
+
+                      <h4><b>8. On a Scrum tem who is in charge of figuring out how the work gets done</b></h4>
+                  	  <input type="radio" name="qs8" value="correct" >Product Manager<br>
+                      <input type="radio" name="qs8" value="wrong">Scrum Master<br>
+                      <input type="radio" name="qs8" value="wrong">Scrum Team<br>
+                </div>
+
+                <div id="q9">
+                    <h4><b>9. How long is a Daily Scrum?</b></h4>
+
+                    <input type="radio" name="qs9" value="correct">As long as needed up to one hour<br>
+                    <input type="radio" name="qs9" value="wrong">30 Minutes<br>
+                    <input type="radio" name="qs9" value="wrong">15 Minutes<br>
+                </div>
+
+                <div id="q10">
+                      <h4><b>10. who is the meeting intended for?</b></h4>
+                      <input type="radio" name="qs10" value="wrong">The Scrum Team<br>
+                      <input type="radio" name="qs10" value="correct">The Product Owner<br>
+                      <input type="radio" name="qs10" value="wrong">The Scrum Master<br>
+                </div>
+
+                <div id="q11">
+
+                      <h4><b>11. What questions do team members answer at the daily Scrum</b></h4>
+                      <input type="radio" name="qs11" value="correct">How can we solve a given problem?<br>
+                      <input type="radio" name="qs11" value="wrong">What did you do yesterday?<br>
+                      <input type="radio" name="qs11"  value="wrong">What stories should we play in the next sprint?<br>
+                      <input type="radio" name="qs11" value="wrong">What will you do today?<br>
+                      <input type="radio" name="qs11" value="wrong">Are there any impediments in your way?<br>
+
+                </div>
+
+                <div id="q12">
+
+                      <h4><b>12. Every Sprint must include:</b></h4>
+
+                      <input type="radio" name="qs12" value="wrong">Demonstration of tested working code<br>
+                      <input type="radio" name="qs12" value="wrong">Code ready to be tested<br>
+                      <input type="radio" name="qs12" value="correct">Code ready to be reviewed<br>
+
+                </div>
+
+                <div id="q13">
+
+                      <h4><b>13. What always happens the first time you run a TDD test?</b></h4>
+
+                      <input type="radio" name="qs13" value="wrong">It depends on how well the code was written<br>
+                      <input type="radio" name="qs13" value="wrong">It fails<br>
+                      <input type="radio" name="qs13" value="correct">It passes<br>
+
+                </div>
+
+                <div id="q14">
+
+                      <h4><b>14. Which of these is a good user story?</b></h4>
+
+                      <input type="radio" name="qs14" value="wrong">As a customer I want to be able to select a state so that I can find my correct zip code.<br>
+                      <input type="radio" name="qs14" value="wrong">Once upon a time in a land far far a way, there was a fairy princess.<br>
+                      <input type="radio" name="qs14" value="correct">Code a reusable framework to capture all errors and return the error code.<br>
+                
+                </div>
+
+
+                <div id="q15">
+
+                      <h4><b>15. In planning poker it is important that:</b></h4>
+
+                      <input type="radio" name="qs15" value="wrong">All participants reveal their points at the same time<br>
+                      <input type="radio" name="qs15" value="correct">All participants take turns sharing their points and discussing results<br>
+                      <input type="radio" name="qs15" value="wrong">An average of all the points is recorded by the Scrum Master for each User Story.<br>
+                
+                </div>
+
+
+                <div id="q16">
+
+                      <h4><b>16. A User Story can be declared done when:</b></h4>
+
+                      <input type="radio" name="qs16" value="wrong">Unit testing is completed<br>
+                      <input type="radio" name="qs16" value="wrong">It meets the criteria for done established by the team<br>
+                      <input type="radio" name="qs16" value="correct">Code is complete and checked into source control.<br>
+
+                
+                </div>
+
+               <br><br><br><br><input type="submit" value="Submit">
+   			</div>
+  </form>
+
+
+
+  </div>
+
+
+  <br><br><br><br>
+  <footer style="width: 100%;height: 25px;text-align: center;background-color: white;"><p id="footertxt">@nisum.com</p></footer>
+  <script>
+
+  /*by smorampudi */
+  
+// function to calculate the number of correct answers
+function handleClick()
+      {         
+        var correctAnswers = 0;
+        //to check the questions with name "qs" eg: qs1,qs2 etc..          
+        for(var i = 1; i < 17; i++) 
+          { //for loop for questions 
+             var radios = document.getElementsByName('qs'+i);
+          // checks the options for each question
+              for(var j = 0; j < radios.length; j++) 
+                  {// loop for options
+                    var radio = radios[j];
+                    // checks if the value of the option is "correct" and that option is checked then it evaluates to true
+                    if(radio.value == "correct" && radio.checked) 
+                      {
+                        correctAnswers++;
+                      }//if end
+                  }// for j loop end
+          }  // for i loop end   
+          //document.getElementById("scoreDisp").innerHTML = ("Correct Responses: " + correctAnswers);              
+        alert("Correct Responses: " + correctAnswers);
+      }// function end
+
+ 
+  </script>
+  </body>
+  </html>
